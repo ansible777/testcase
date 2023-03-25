@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'git', url: 'https://github.com/ansible777/java-app.git'
+                git credentialsId: 'git', url: 'https://github.com/AnudeepReddy12/maven.git'
             }
         }
         stage("Maven Build"){
